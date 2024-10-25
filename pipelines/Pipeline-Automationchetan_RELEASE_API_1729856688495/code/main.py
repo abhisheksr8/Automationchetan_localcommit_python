@@ -1,0 +1,3 @@
+from pipelineautomationchetan_release_api_1729856688495.pipeline import main
+
+main()
