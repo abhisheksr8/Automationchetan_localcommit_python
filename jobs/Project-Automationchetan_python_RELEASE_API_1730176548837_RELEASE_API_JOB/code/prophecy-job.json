@@ -1,0 +1,69 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "1",
+    "jobId" : "jobs/Project-Automationchetan_python_RELEASE_API_1730176548837_RELEASE_API_JOB",
+    "name" : "Project-Automationchetan_python_RELEASE_API_1730176548837_RELEASE_API_JOB",
+    "schedule" : "0/1 * * ? * * 2090",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "small",
+    "alerting" : {
+      "emails" : "abhisheks+e2etests@prophecy.io",
+      "onStart" : true,
+      "onSuccess" : true,
+      "onFailure" : true
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    }
+  },
+  "processes" : {
+    "idvkzKmsn0MKYCw3wDyMs" : {
+      "id" : "idvkzKmsn0MKYCw3wDyMs",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "Pipeline-Automationchetan_RELEASE_API_1730176548837",
+        "slug" : "Pipeline-Automationchetan_RELEASE_API_1730176548837",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "in",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "out",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "pipelineId" : "pipelines/Pipeline-Automationchetan_RELEASE_API_1730176548837",
+        "configurations" : {
+          "schema" : [ ],
+          "instances" : {
+            "Project-Automationchetan_python_RELEASE_API_1730176548837" : [ "default" ]
+          },
+          "overrides" : { },
+          "selectedInstance" : "default"
+        }
+      }
+    }
+  },
+  "connections" : [ ]
+}
